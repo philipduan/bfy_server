@@ -1,5 +1,4 @@
 //const { mongoose } = require('../db/mongoose.js');
-const { config } = require('../config');
 const lol = require('../functions/functions');
 const express = require('express');
 const bodyParser = require('body-parser');
