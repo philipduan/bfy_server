@@ -1,6 +1,6 @@
 const { config } = require('../config');
 const axios = require('axios');
-const key = config.api_key;
+const key = process.env.key || config.api_key;
 module.exports = {
   getSummonerId: async function(summonerName) {
     let response = await axios.get(
