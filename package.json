@@ -2,7 +2,7 @@
   "name": "philip-bfy-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server/server.js",
     "dev": "nodemon server/server.js",
@@ -14,13 +14,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "mongodb": "^3.1.1",
     "mongoose": "^5.2.4"
-  },
-  "dependencies": {
-    "axios": "^0.18.0",
-    "nodemon": "^1.18.3"
   }
 }
