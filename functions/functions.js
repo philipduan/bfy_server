@@ -1,4 +1,4 @@
-const { config } = require('../config');
+//const { config } = require('../config');
 const axios = require('axios');
 const key = process.env.key || config.api_key;
 module.exports = {
